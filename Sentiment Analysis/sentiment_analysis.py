@@ -1,6 +1,10 @@
 # CIS 400
 # Sentiment analysis
-# 
+# ---------------------------------------------------------------------------------
+# Libraries that need to be downloaded 
+# pip install nltk
+# pip install vaderSentiment
+# ---------------------------------------------------------------------------------
 import re
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
