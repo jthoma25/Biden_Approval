@@ -1,5 +1,6 @@
 # CIS 400
 # Sentiment analysis
+# Konstantinos Chrysoulas and Gaeun Lee
 # ---------------------------------------------------------------------------------
 # Libraries that need to be downloaded 
 # pip install nltk
