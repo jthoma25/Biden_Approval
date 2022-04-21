@@ -45,32 +45,6 @@ from that q keyword and loop through that. We filter out all retweets and all of
 the api call until we get to the tweet text, and we write to the given txt files for that date.
 
 '''
-#April 11th
-#=============================================================================================================================
-Apr11 = open('CIS400_Apr11.txt', 'w')
-
-for i in q:
-    response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-12', result_type = 'mixed', lang = 'en')
-    for j in range(len(response['statuses'])):
-        if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr11.write(response['statuses'][j]['text'])
-            Apr11.write('\n\n\n')
-Apr11.close()
-
-
-#April 12th
-#=============================================================================================================================
-Apr12 = open('CIS400_Apr12.txt', 'w')
-
-for i in q:
-    response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-13', result_type = 'mixed', lang = 'en')
-    for j in range(len(response['statuses'])):
-        if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr12.write(response['statuses'][j]['text'])
-            Apr12.write('\n\n\n')
-Apr12.close()
-
-
 #April 13th
 #=============================================================================================================================
 Apr13 = open('CIS400_Apr13.txt', 'w')
@@ -79,7 +53,7 @@ for i in q:
     response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-14', result_type = 'mixed', lang = 'en')
     for j in range(len(response['statuses'])):
         if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr13.write(response['statuses'][j]['text'])
+            Apr13.write(response['statuses'][j]['text'].replace('\n', ' '))
             Apr13.write('\n\n\n')
 Apr13.close()
 
@@ -92,7 +66,7 @@ for i in q:
     response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-15', result_type = 'mixed', lang = 'en')
     for j in range(len(response['statuses'])):
         if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr14.write(response['statuses'][j]['text'])
+            Apr14.write(response['statuses'][j]['text'].replace('\n', ' '))
             Apr14.write('\n\n\n')
 Apr14.close()
 
@@ -105,7 +79,7 @@ for i in q:
     response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-16', result_type = 'mixed', lang = 'en')
     for j in range(len(response['statuses'])):
         if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr15.write(response['statuses'][j]['text'])
+            Apr15.write(response['statuses'][j]['text'].replace('\n', ' '))
             Apr15.write('\n\n\n')
 Apr15.close()
 
@@ -118,7 +92,7 @@ for i in q:
     response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-17', result_type = 'mixed', lang = 'en')
     for j in range(len(response['statuses'])):
         if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr16.write(response['statuses'][j]['text'])
+            Apr16.write(response['statuses'][j]['text'].replace('\n', ' '))
             Apr16.write('\n\n\n')
 Apr16.close()
 
@@ -131,7 +105,7 @@ for i in q:
     response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-18', result_type = 'mixed', lang = 'en')
     for j in range(len(response['statuses'])):
         if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr17.write(response['statuses'][j]['text'])
+            Apr17.write(response['statuses'][j]['text'].replace('\n', ' '))
             Apr17.write('\n\n\n')
 Apr17.close()
 
@@ -144,11 +118,36 @@ for i in q:
     response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-19', result_type = 'mixed', lang = 'en')
     for j in range(len(response['statuses'])):
         if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
-            Apr18.write(response['statuses'][j]['text'])
+            Apr18.write(response['statuses'][j]['text'].replace('\n', ' '))
             Apr18.write('\n\n\n')
 Apr18.close()
 
 
+#April 19th
 #=============================================================================================================================
+Apr19 = open('CIS400_Apr19.txt', 'w')
 
+for i in q:
+    response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-20', result_type = 'mixed', lang = 'en')
+    for j in range(len(response['statuses'])):
+        if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
+            Apr19.write(response['statuses'][j]['text'].replace('\n', ' '))
+            Apr19.write('\n\n\n')
+Apr19.close()
+
+
+#April 20th
+#=============================================================================================================================
+Apr20 = open('CIS400_Apr20.txt', 'w')
+
+for i in q:
+    response = twitter_api.search.tweets(q = i, count = 100, until = '2022-04-21', result_type = 'mixed', lang = 'en')
+    for j in range(len(response['statuses'])):
+        if 'RT' not in response['statuses'][j]['text'] and '…' not in response['statuses'][j]['text']:
+            Apr20.write(response['statuses'][j]['text'].replace('\n', ' '))
+            Apr20.write('\n\n\n')
+Apr20.close()
+
+
+#=============================================================================================================================
 
