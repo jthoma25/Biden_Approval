@@ -393,7 +393,302 @@ def main():
     file_neutrals.close()
     tweets_file.close()
 
+#April 21st
+#=============================================================================================================================
 
+    file_negatives= open("Apr_21_negative_tweets.txt","w+")
+    file_positives= open("Apr_21_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_21_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr21.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 21 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+
+#April 22nd
+#=============================================================================================================================
+
+    file_negatives= open("Apr_22_negative_tweets.txt","w+")
+    file_positives= open("Apr_22_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_22_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr22.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 22 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+#April 23rd
+#=============================================================================================================================
+
+    file_negatives= open("Apr_23_negative_tweets.txt","w+")
+    file_positives= open("Apr_23_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_23_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr23.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 23 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+#April 24th
+#=============================================================================================================================
+
+    file_negatives= open("Apr_24_negative_tweets.txt","w+")
+    file_positives= open("Apr_24_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_24_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr24.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 24 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+#April 25th
+#=============================================================================================================================
+
+    file_negatives= open("Apr_25_negative_tweets.txt","w+")
+    file_positives= open("Apr_25_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_25_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr25.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 25 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+#April 26th
+#=============================================================================================================================
+
+    file_negatives= open("Apr_26_negative_tweets.txt","w+")
+    file_positives= open("Apr_26_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_26_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr26.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 26 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+#April 27th
+#=============================================================================================================================
+
+    file_negatives= open("Apr_27_negative_tweets.txt","w+")
+    file_positives= open("Apr_27_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_27_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr27.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 27 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
+
+#April 28th
+#=============================================================================================================================
+
+    file_negatives= open("Apr_28_negative_tweets.txt","w+")
+    file_positives= open("Apr_28_positive_tweets.txt","w+")
+    file_neutrals= open("Apr_28_neutral_tweets.txt","w+")
+
+    positives = 0
+    negatives = 0
+    neutrals = 0
+    
+    tweets_file=open("CIS400_Apr28.txt", "r")
+
+    for tweet in tweets_file:
+        if tweet != "\n":
+            rating = analyis(process_tweet(clean_tweet(tweet)))
+        
+            if rating == 'negative':
+                file_negatives.write(tweet + "\n\n")
+                negatives += 1
+            elif rating == 'neutral':
+                file_neutrals.write(tweet + "\n\n")
+                neutrals += 1
+            elif rating == 'positive':
+                file_positives.write(tweet + "\n\n")
+                positives += 1
+
+    print("\nApril 28 \n")
+    print("Number of negative tweets: " + str(negatives))
+    print("Number of positive tweets: " + str(positives))
+    print("Number of neutral tweets: " + str(neutrals))
+    print("----------------------------------------------")
+    file_negatives.close()
+    file_positives.close()
+    file_neutrals.close()
+    tweets_file.close()
 
 if __name__ == "__main__":
     main()
