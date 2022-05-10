@@ -10,16 +10,24 @@ IDE/TextEditor: This does not matter, though we deferred to VSCode due to the si
 Packages used for Sentiment Analysis:
 
 import re
+
 import nltk
+
 from nltk.corpus import stopwords
+
 from nltk.stem.wordnet import WordNetLemmatizer
+
 from nltk.tokenize import TweetTokenizer
+
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
 
 Packages used for Visualizations/Data Modeling:
 
 from matplotlib import pyplot as plt
+
 import numpy as np
+
 import pandas as pd
 
 For Running the Files: Please ensure that all of libraries listed above have been downloaded. All of them are not needed for each .py file, but all of them will be need if the intention is to run all of the files.
