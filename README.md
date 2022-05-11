@@ -5,7 +5,9 @@ Libraries/Privileges Needed: Twitter, Twitter Developer Account
 
 Python Version: 3.6 or later
 
-IDE/TextEditor: This does not matter, though we deferred to VSCode due to the simplicity and ease of use.
+IDE/TextEditor: This does not matter, some IDE's that we would recommend based on our uses are VSCode and Jupyter Notebook
+
+Jupyter Notebook
 
 Packages used for Sentiment Analysis:
 
